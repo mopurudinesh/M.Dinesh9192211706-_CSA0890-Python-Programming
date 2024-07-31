@@ -1,0 +1,12 @@
+P=int(input("enter the amount:"))
+Y=int(input("enter the years:"))
+SC=input("yes/no:")
+G=input("female/male:")
+if SC=="yes" and G=="female":
+    print("SI=",(P*Y*15)/100)
+elif SC=="yes" and G=="male":
+    print("SI=",(P*Y*12)/100)
+else:
+    print("SI=",(P*Y*10)/100)
+
+

@@ -1,0 +1,7 @@
+binary_str="1101"
+decimal=0
+length=len(binary_str)
+for i in range(length):
+ bit=int(binary_str[length-1-i])
+ decimal+=bit*(2**i)
+print(binary_str,decimal)

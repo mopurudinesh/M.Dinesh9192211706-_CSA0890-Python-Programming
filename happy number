@@ -1,0 +1,15 @@
+num=int(input("enter the number:"))
+a=set()
+temp=num
+while temp!=1 and temp not in a:
+    a.add(temp)
+    sum_of_squares=0
+    while temp>0:
+        digit=temp%10
+        sum_of_squares+=digit*digit
+        temp=temp//10
+    temp=sum_of_squares
+if temp==1:
+    print("happy number")
+else:
+    print("not a happy number")
