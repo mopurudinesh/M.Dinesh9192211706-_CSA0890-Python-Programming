@@ -1,0 +1,7 @@
+import math
+def euclidean_distance(x1, x2, y1, y2):
+    return math.sqrt((x2-x1)**2+(y2-y1)**2)
+point1=(2,3)
+point2=(10,8)
+distance= euclidean_distance(point1[0],point1[1],point2[0],point2[1])
+print("distance between the given poins is :", distance)
